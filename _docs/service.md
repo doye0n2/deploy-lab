@@ -3,7 +3,7 @@
 
 브라우저 → Express /api/records → PostgreSQL records. Adminer는 DB 확인 도구이며 앱 요청 경로에 들어가지 않는다.
 
-제공판은 trim 후 1~200자다. 002·003은 아직 구현하지 않았다. 실제 작업 뒤 현재 동작과 검증·배포 상태를 갱신한다.
+현재 trim 후 1~20자다(002 구현, 로컬 확인·배포 전). 003은 아직 구현하지 않았다. 실제 작업 뒤 현재 동작과 검증·배포 상태를 갱신한다.
 
 GET /api/records → 200 {records:[{id,body,createdAt}]} (최신 100개)
 POST /api/records JSON {body:"메모"} → 201 {record:{id,body,createdAt}}, 검증 실패 400, DB 실패 503.

@@ -1,6 +1,6 @@
 # 메모 최대 길이 20자
 
-상태: 스펙 준비·구현 전.
+상태: 구현 완료(미커밋)·로컬 검증 완료(조건 1~4: API·화면·DB·다른 브라우저)·배포 및 배포 검증(조건 5) 전.
 
 [PRD](PRD.md) → [스펙](specs/behavior.md) → [검증](verification.md) → [회고](retrospective.md).
 
